@@ -1,3 +1,4 @@
 # Ignore test secrets in config/env.example.js
 # These are example values for demonstration only
-e32f597a:config/env.example.js:stripe-access-token:14
+# Ignore OWASP ZAP test API key used in NodeGoat training application
+32f597a:config/env/development.js:generic-api-key:18
